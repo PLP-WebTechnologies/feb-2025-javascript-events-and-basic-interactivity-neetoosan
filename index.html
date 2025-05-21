@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neetoosan Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Neetoosan Playground</h1>
+  </header>
+  <main>
+    <!-- Event Handling Section -->
+    <section id="event-handling">
+      <h2>Event Handling</h2>
+      <button id="clickButton">Click Me</button>
+      <button id="hoverButton">Hover Over Me</button>
+      <input type="text" id="keypressInput" placeholder="Type here">
+      <p id="secretAction">Double-click or long press me for a secret thingy!</p>
+    </section>
+
+    <!-- Interactive Elements Section -->
+    <section id="interactive-elements">
+      <h2>Play with me Elements</h2>
+      <!-- there's no image -->
+      <button id="changeTextButton">Change Text</button>
+      <button id="changeColorButton">Change Color</button>
+      <div id="image-gallery">
+        <img src="image1.jpg" alt="Image 1" class="gallery-image">
+        <img src="image2.jpg" alt="Image 2" class="gallery-image">
+        <img src="image3.jpg" alt="Image 3" class="gallery-image">
+      </div>
+      <div id="tabs">
+        <button class="tab" data-tab="tab1">minie</button>
+        <button class="tab" data-tab="tab2">mannie</button>
+        <button class="tab" data-tab="tab3">monnie</button>
+        <div id="tab1" class="tab-content">this is under minie</div>
+        <div id="tab2" class="tab-content" style="display: none;">this is under mannie</div>
+        <div id="tab3" class="tab-content" style="display: none;">this is under monnie</div>
+      </div>
+    </section>
+
+    <!-- Form Validation Section -->
+    <section id="form-validation">
+      <h2>Form Validation</h2>
+      <form id="validationForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="8">
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Neetoosan Playground</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
